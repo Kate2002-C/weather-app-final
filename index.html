@@ -15,25 +15,36 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app-body">
-        <h1>Stockholm</h1>
-        <ul>
-          <li>Tuesday 20:00</li>
-          <li>Partly cloudy</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              rel="partly cloudy"
-            />18˚C | ˚F
-          </div>
-          <div class="col-6">
+      <div class="body-wrapper">
+        <div class="weather-app-body">
+          <div class="overview">
+            <h1>Stockholm</h1>
             <ul>
-              <li>Precipitation: 1%</li>
-              <li>Humidity: 56%</li>
-              <li>Wind: 16km/h</li>
+              <li>Tuesday 20:00</li>
+              <li>Partly cloudy</li>
             </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="partly cloudy"
+                  class="float-left"
+                />
+                <span class="float-left">
+                  <strong>18</strong
+                  ><span class="units">˚C | <a href="#">˚F</a></span>
+                </span>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 1%</li>
+                <li>Humidity: 56%</li>
+                <li>Wind: 16km/h</li>
+              </ul>
+            </div>
           </div>
         </div>
         <small>
