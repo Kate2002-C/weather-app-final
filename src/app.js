@@ -42,6 +42,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "9b131b1eb42b64c053968bbfce296158";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Stockholm&appid=${apiKey}&units=metric`;
+let city = "Stockholm";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
