@@ -1,6 +1,6 @@
 body {
   font-family: "Google Sans", arial, sans-serif;
-  background-color: #ddeedf;
+  background-color: rgba(184, 225, 221, 0.3);
 }
 h1 {
   color: #878787;
@@ -33,15 +33,23 @@ a {
   text-decoration: none;
 }
 
+footer {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 12px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
 .btn {
-  background-color: #ddeedf;
-  border-color: #ddeedf;
+  background-color: #b8e1dd;
+  border-color: #b8e1dd;
   color: black;
 }
 
 .btn:hover {
-  background-color: #044a42;
-  border-color: #044a42;
+  background-color: #3a9188;
+  border-color: #3a9188;
 }
 
 .body-wrapper {
