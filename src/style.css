@@ -1,6 +1,9 @@
 body {
   font-family: "Google Sans", arial, sans-serif;
   background-color: rgba(184, 225, 221, 0.3);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 h1 {
   color: #878787;
